@@ -1,0 +1,41 @@
+body {
+  background-color: crimson;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.letter {
+  background-color: aqua;
+  width: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: cadetblue;
+}
+
+.word {
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: aqua;
+}
+
+h2 {
+  color: aqua;
+}
+
+.selected {
+  opacity: 0.35;
+}
